@@ -1,6 +1,6 @@
 services:
   backend:
-    image: ${DOCKERHUB_USERNAME}/devops-backend:latest
+    image: 117407498588.dkr.ecr.ap-south-1.amazonaws.com/full-stack-devops-backend:latest
     container_name: backend
     restart: always
     environment:
@@ -10,7 +10,7 @@ services:
       - appnet
 
   frontend:
-    image: ${DOCKERHUB_USERNAME}/devops-frontend:latest
+    image: 117407498588.dkr.ecr.ap-south-1.amazonaws.com/full-stack-devops-frontend:latest
     container_name: frontend
     restart: always
     ports:
