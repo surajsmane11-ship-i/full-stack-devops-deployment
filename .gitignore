@@ -34,3 +34,4 @@ ec2_key
 *.tfstate
 *.tfstate.*
 .terraform.lock.hcl
+deploy/.env.prod
